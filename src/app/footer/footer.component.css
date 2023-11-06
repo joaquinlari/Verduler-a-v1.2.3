@@ -1,0 +1,50 @@
+.footer-section{
+    margin: 0 auto;
+    background-color: #71ac2d;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto {
+    margin-left: 15px;
+    color: white;
+}
+
+p {
+    display: inline;
+}
+
+
+
+
+
+  .wrap-social-logos ul, .wrap-menu-footer-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-logo{
+    max-width: 60px;
+    max-height: 81.34;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .wrap-menu-footer-section ul li{
+    font-size: 1.1rem;
+    padding: 1.5rem;
+    color: white;
+    list-style:none
+  }
+  
+  .menu-footer{
+    padding: 1rem 0;
+  }
+
+.footer-creds{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255);
+}
+
