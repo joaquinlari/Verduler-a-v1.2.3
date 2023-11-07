@@ -10,7 +10,7 @@ body{
     display: flex;
     font-family: 'Roboto', sans-serif;
     background: rgb(80,209,86);
-    background: linear-gradient(0deg, rgba(80,209,86,1) 0%, rgba(255,255,255,1) 61%);
+    background: linear-gradient(0deg, rgba(80,209,86,1) 0%, rgb(223, 223, 223) 61%);
     height: calc(100vh - 86px);
 }
 
@@ -18,7 +18,7 @@ body{
     background-color: rgb(255, 255, 255);
     margin: auto;
     width: 90%;  
-    max-width: 400px;
+    max-width: 500px;
     padding: 4.5em 3em;
     border-radius: 10px;
     box-shadow: 5px 5px 10px -5px rgb(0 0 0 / 30%);

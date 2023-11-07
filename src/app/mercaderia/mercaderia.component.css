@@ -23,16 +23,18 @@ img{
 
 .carrito {
     background-color: #71ac2d;
-    border-color: #60a115;
+    border: none;
     color: #fff;
     display: flex;
-    width: 130px;
-    height: 30px;
-    font-size: 13px;
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
 
     align-items: center;
     margin: 0 auto;
-    padding-left:2px;
+    padding-left:1px;
+    padding-right: 10px;
 
     border-radius: 4px;
     transition: 0.34s;
@@ -44,9 +46,7 @@ img{
 }
 
 .carrito:hover {
-    width:140px;
-    height: 40px;
-    font-size:14px; 
+    background-color: #587c2f;
 }
 
 .title{
@@ -56,6 +56,11 @@ img{
 .peso {
     text-align:center;
 }
+
+.peso-input {
+    height: 15px;
+}
+
 
 .sub-title{
     text-align:center;

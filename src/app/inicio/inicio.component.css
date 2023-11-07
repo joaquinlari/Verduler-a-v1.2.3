@@ -2,8 +2,6 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: .1rem;
-    padding-left: 0rem;
-    padding-bottom: 1rem;
 }
 h1 {
   font-family: 'Rubik', sans-serif;
