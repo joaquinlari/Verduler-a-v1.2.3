@@ -1,29 +1,26 @@
-<!-- Section: Design Block -->
-<div>
-  <h2>Iniciar sesión</h2>
+<body>
+  <form class="form" (ngSubmit)="login()">
+    <h2 class="form_title">Iniciar sesion</h2>
 
-  <form (ngSubmit)="login()">
-    <div>
-      <div>
-        <input class="form-control" type="text" id="username" [(ngModel)]="username" name="username" required>
-        <label class="form-label" for="username">Usuario</label>
+    <div class="form_container">
+      <div class="form_group">
+        <input class="form_input" type="text" id="username" [(ngModel)]="username" name="username" placeholder=" " required>
+        <label class="form_label" for="username">Usuario</label>
+        <span class="form_line"></span>
         <div *ngIf="usernameError" class="text-danger">Por favor, completa este campo.</div>
       </div>
+
+      <div class="form_group">
+        <input class="form_input" type="password" id="password" [(ngModel)]="password" name="password" placeholder=" " required>
+        <label class="form_label" for="password">Contraseña</label>
+        <span class="form_line"></span>
+        <div *ngIf="passwordError" class="text-danger">Por favor, completa este campo.</div>
+      </div>
+
+      <input type="submit" class="form_submit" value="Iniciar sesión">
+      <p class="form_paragraph">Si no tienes una cuenta <a class="form_link" routerLink="/registro">haz clic aqui</a></p>
     </div>
 
-    <!-- Password input -->
-    <div>
-      <input class="form-control" type="password" id="password" [(ngModel)]="password" name="password" required>
-      <label class="form-label" for="password">Contraseña</label>
-      <div *ngIf="passwordError" class="text-danger">Por favor, completa este campo.</div>
-    </div>
-
-    <!-- Submit button -->
-
-    <button type="submit">
-      Login
-    </button>
-    <br>
-    <a routerLink="/registro">Registrarse</a>
+      
   </form>
-</div>
+</body>

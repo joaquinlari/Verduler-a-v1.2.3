@@ -1,6 +1,5 @@
 .hero{
-    height: 100%;
-    margin-top:-20px;
+    height: 91.5vh;
     background: url(src\assets\sava.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -15,21 +14,6 @@
     max-width: 600px;
     color: #fff;
     padding: 15%;
-}
-  
-  /** Logo Brand Section **/
-  
-.wrap-logos{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
-  
-.logo-brand{
-    width: 200px;
-    padding: 1rem 2rem;
-    
 }
 
 h1 {
