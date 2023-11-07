@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.all{
+    background-color: #32a92b !important;
+    background-color: #e5e5f7;
+    background: repeating-linear-gradient( 45deg, #32a92b, #32a92b 5px, #e5e5f7 5px, #e5e5f7 25px );
+}
+
+.form-container {
+    background-color: black;
+}
+
+.form-label {
+    background-color: black;
+}

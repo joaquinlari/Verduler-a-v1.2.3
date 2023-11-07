@@ -1,0 +1,38 @@
+.footer-section{
+    margin: 0 auto;
+    background-color: #71ac2d;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto {
+    margin-left: 15px;
+    color: white;
+}
+
+.asd {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+svg {
+  margin-right: 7px;
+}
+
+h3 {
+  color: black;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+p {
+    display: inline;
+}
+
+.footer-creds{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255);
+}
+

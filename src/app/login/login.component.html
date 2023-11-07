@@ -1,0 +1,29 @@
+<!-- Section: Design Block -->
+<div>
+  <h2>Iniciar sesión</h2>
+
+  <form (ngSubmit)="login()">
+    <div>
+      <div>
+        <input class="form-control" type="text" id="username" [(ngModel)]="username" name="username" required>
+        <label class="form-label" for="username">Usuario</label>
+        <div *ngIf="usernameError" class="text-danger">Por favor, completa este campo.</div>
+      </div>
+    </div>
+
+    <!-- Password input -->
+    <div>
+      <input class="form-control" type="password" id="password" [(ngModel)]="password" name="password" required>
+      <label class="form-label" for="password">Contraseña</label>
+      <div *ngIf="passwordError" class="text-danger">Por favor, completa este campo.</div>
+    </div>
+
+    <!-- Submit button -->
+
+    <button type="submit">
+      Login
+    </button>
+    <br>
+    <a routerLink="/registro">Registrarse</a>
+  </form>
+</div>
