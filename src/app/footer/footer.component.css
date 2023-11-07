@@ -1,19 +1,21 @@
 .footer-section{
-    margin: 0 auto;
-    background-color: #71ac2d;
-    display: flex;
-    flex-direction: column;
+  margin: 0 auto;
+  background-color: #71ac2d;
+  display: flex;
+  flex-direction: column;
 }
 
 .contacto {
-    margin-left: 15px;
-    color: white;
+  margin-left: 15px;
+  color: white;
+  width: 19%;
 }
 
 .asd {
   display: flex;
   align-items: center;
   margin: 0;
+  margin-top: -10px;
 }
 
 svg {
@@ -24,15 +26,16 @@ h3 {
   color: black;
   border-bottom: 1px solid black;
   padding-bottom: 5px;
+  margin-bottom: 18px;
 }
 
 p {
-    display: inline;
+  display: inline;
 }
 
 .footer-creds{
-    display: flex;
-    justify-content: center;
-    color: rgba(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.7);
 }
 
